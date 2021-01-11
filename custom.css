@@ -18,6 +18,7 @@ body {
   display: flex;
   max-width: 75%;
   min-height: 50vh;
+  min-width: 960px;
 }
 
 .column {
@@ -29,8 +30,12 @@ body {
     url("/images/bg-pattern-desktop.svg");
   background-position: 45% 15%, 45% 40%;
   background-repeat: no-repeat;
-  width: 75%;
   position: relative;
+  width: 40%;
+}
+
+.text {
+    width: 60%;
 }
 
 .box {
@@ -46,6 +51,8 @@ body {
 .question {
     font-weight: 700;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .question:hover {
@@ -53,6 +60,15 @@ body {
     color: #F47C57;
 }
 
+.question:after {
+content: url("/images/icon-arrow-down.svg");
+
+}
+
 .hidden {
-    opacity: 0;
+    display: none;
+}
+
+.section {
+    border-bottom: 1px solid	#E7E7E9;
 }
