@@ -1,0 +1,38 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(#AB92BF, #6565E7) no-repeat;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.card-custom {
+ background: #fff;
+ padding: 20px;
+ border-radius: 30px;
+ display: flex;
+ max-width: 75%;
+ min-height: 50vh;
+}
+
+.img {
+    background-image:  url("/images/illustration-woman-online-desktop.svg"), url("/images/bg-pattern-desktop.svg");
+    background-position: 45% 15%, 45% 40%;
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+.box {
+    background-image: url("/images/illustration-box-desktop.svg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    background-repeat: no-repeat;
+}
