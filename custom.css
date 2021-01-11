@@ -1,38 +1,58 @@
 body {
-    font-family: 'Kumbh Sans', sans-serif;
-    background: linear-gradient(#AB92BF, #6565E7) no-repeat;
+  font-family: "Kumbh Sans", sans-serif;
+  background: linear-gradient(#ab92bf, #6565e7) no-repeat;
+  color:#1D1E35;
 }
 
 .container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-custom {
- background: #fff;
- padding: 20px;
- border-radius: 30px;
- display: flex;
- max-width: 75%;
- min-height: 50vh;
+  background: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  max-width: 75%;
+  min-height: 50vh;
+}
+
+.column {
+    padding: 20px;
 }
 
 .img {
-    background-image:  url("/images/illustration-woman-online-desktop.svg"), url("/images/bg-pattern-desktop.svg");
-    background-position: 45% 15%, 45% 40%;
-    background-repeat: no-repeat; 
-    width: 100%;
+  background-image: url("/images/illustration-woman-online-desktop.svg"),
+    url("/images/bg-pattern-desktop.svg");
+  background-position: 45% 15%, 45% 40%;
+  background-repeat: no-repeat;
+  width: 75%;
+  position: relative;
 }
 
 .box {
-    background-image: url("/images/illustration-box-desktop.svg");
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 450px;
-    left: 450px;
-    background-repeat: no-repeat;
+  background-image: url("/images/illustration-box-desktop.svg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.question {
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.question:hover {
+    cursor: pointer;
+    color: #F47C57;
+}
+
+.hidden {
+    opacity: 0;
 }
